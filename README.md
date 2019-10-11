@@ -10,6 +10,8 @@ Update 2019-06-26
 Created Update Package for "Disconnected Environments" and full updates including Docker-CE
 file:   zerodown-update.tar.gz
 
+See Section on Disconnected/Air Gapped Environments
+
 Fetch:  "wget https://downloads.zerodownsoftware.com/zdsupdate/zerodown-update.tar.gz"
 
 Unpackage:  "tar xzvf zerodown-update.tar.gz"
