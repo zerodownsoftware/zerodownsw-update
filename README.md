@@ -53,7 +53,7 @@ Fixes Internet Explorer browser issue with reactive interface
 
 
 ***********************************************
-*      Instructions
+*      Instructions Connected to Internet
 ***********************************************
 
 1.)	Download the update utility to the ZeroDown Software instance.  Any SSL Certificates and Configurations will
@@ -90,3 +90,7 @@ sudo ./update.sh
 sudo zds-ui restart
 
 sudo zerodown restart
+
+***********************************************
+*      Instructions Disconnected / Air Gapped Environment
+***********************************************
