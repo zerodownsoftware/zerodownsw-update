@@ -7,6 +7,18 @@ Update files for ZeroDown Software
 
 Update 2019-06-26
 ===================
+Created Update Package for "Disconnected Environments" and full updates including Docker-CE
+file:   zerodown-update.tar.gz
+
+Fetch:  "wget https://downloads.zerodownsoftware.com/zdsupdate/zerodown-update.tar.gz"
+
+Unpackage:  "tar xzvf zerodown-update.tar.gz"
+
+Update Script:  "sudo ./update.sh"
+
+
+Update 2019-06-26
+===================
 Updated Downloads link to HTTPS.
 
 Update 2019-05-13
@@ -52,10 +64,18 @@ or from the ZeroDown Software instance:
 
 wget https://downloads.zerodownsoftware.com/zdsupdate/zdsupdate.tar
 
+or Disconnected/Air Gapped Environments Package:
+
+wget https://downloads.zerodownsoftware.com/zdsupdate/zerodown-update.tar.gz
+
 
 2.)	Unpack the compressed update utility scripts and files
 
 tar xvf zdsupdate.tar
+
+or 
+
+tar xzvf zerodown-update.tar.gz
 
 
 3.)	Run the update script from an elevated user
