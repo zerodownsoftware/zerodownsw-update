@@ -10,7 +10,7 @@ Update 2019-06-26
 Created Update Package for "Disconnected Environments" and full updates including Docker-CE
 file:   zerodown-update.tar.gz
 
-See Section on Disconnected/Air Gapped Environments
+See Section on Disconnected / Air Gapped Environments
 
 Fetch:  "wget https://downloads.zerodownsoftware.com/zdsupdate/zerodown-update.tar.gz"
 
@@ -66,10 +66,6 @@ or from the ZeroDown Software instance:
 
 wget https://downloads.zerodownsoftware.com/zdsupdate/zdsupdate.tar
 
-or Disconnected/Air Gapped Environments Package:
-
-wget https://downloads.zerodownsoftware.com/zdsupdate/zerodown-update.tar.gz
-
 
 2.)	Unpack the compressed update utility scripts and files
 
@@ -94,3 +90,31 @@ sudo zerodown restart
 ***********************************************
 *      Instructions Disconnected / Air Gapped Environment
 ***********************************************
+
+1.)	Download the update utility to the ZeroDown Software instance.  Any SSL Certificates and Configurations will
+    need to be reinstalled/configured.  Backup the SSL Certificate prior to updating ZeroDown Software.  
+    Login authentication will revert to default admin credentials.
+
+zerodown-update.tar.gz 
+
+or from the ZeroDown Software instance:
+
+wget https://downloads.zerodownsoftware.com/zdsupdate/zerodown-update.tar.gz
+
+
+2.)	Unpack the compressed update utility scripts and files
+
+tar xzvf zerodown-update.tar.gz
+
+
+3.)	Run the update script from an elevated user
+
+sudo ./update.sh
+
+
+4.)	Restart the services with the following commands:
+
+sudo zds-ui restart
+
+sudo zerodown restart
+
